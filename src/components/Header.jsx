@@ -13,7 +13,14 @@ export default function Header() {
   };
   return (
     <div className=" ">
-      <div className="header min-h-[500px]">
+      <div
+        className="header  min-h-[500px]"
+        style={{
+          backgroundImage: `url(../public/assets/Cover.jpeg)`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
         <Navigation />
         <div className=" flex max-w-[630px] mx-auto pt-[50px] flex-col gap-y-[48px]">
           <p className=" text-white text-[33px]">
