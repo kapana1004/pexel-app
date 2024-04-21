@@ -1,10 +1,10 @@
 import { useState } from "react";
 import Navigation from "./Navigation";
-import SearchImg from "../../public/assets/Search.jpeg";
-import DotsImg from "../../public/assets/Dots.png";
-import ImageImg from "../../public/assets/ImageIcon.png";
-import ArrowDownImg from "../../public/assets/ArrowDown.png";
-import ArrowUpImg from "../../public/assets/ArrowUp.png";
+import SearchImg from "/assets/Search.jpeg";
+import DotsImg from "/assets/Dots.png";
+import ImageImg from "/assets/ImageIcon.png";
+import ArrowDownImg from "/assets/ArrowDown.png";
+import ArrowUpImg from "/assets/ArrowUp.png";
 
 export default function Header() {
   const [arrow, setArrow] = useState(false);
@@ -16,7 +16,7 @@ export default function Header() {
       <div
         className="header  min-h-[500px]"
         style={{
-          backgroundImage: `url(../public/assets/Cover.jpeg)`,
+          backgroundImage: `url(../assets/Cover.jpeg)`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}

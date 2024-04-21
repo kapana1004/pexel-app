@@ -1,5 +1,5 @@
 import React from "react";
-import LogoImg from "../../public/assets/Logo.jpeg";
+import LogoImg from "/assets/Logo.jpeg";
 export default function Navigation() {
   return (
     <nav className=" flex justify-between pl-[60px] pr-[60px] pt-[30px] w-[100%]">
