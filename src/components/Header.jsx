@@ -2,9 +2,9 @@ import { useState } from "react";
 import Navigation from "./Navigation";
 import SearchImg from "/assets/Search.jpeg";
 import DotsImg from "/assets/Dots.png";
-import ImageImg from "/assets/ImageIcon.png";
-import ArrowDownImg from "/assets/ArrowDown.png";
-import ArrowUpImg from "/assets/ArrowUp.png";
+import ImageImg from "/assets/imageIcon.svg";
+import ArrowDownImg from "/assets/ArrDown.svg";
+import ArrowUpImg from "/assets/ArrUp.svg";
 
 export default function Header() {
   const [arrow, setArrow] = useState(false);
@@ -30,7 +30,7 @@ export default function Header() {
           <div className=" w-[100%] h-[50px] flex flex-row bg-white pl-[5px] pt-[5px] pb-[5px] rounded-[10px]">
             <button className=" bg-red-500 w-[130px] pl-[15px] pr-[15px] border-[#bfbfbf] hover:opacity-75 rounded-[5px] flex flex-row items-center justify-between">
               <img
-                className=" w-[16px] h-[16px] mt-[3px]"
+                className=" w-[20px] h-[20px] mt-[3px]"
                 src={ImageImg}
                 alt=""
               />
