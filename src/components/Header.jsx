@@ -37,7 +37,7 @@ export default function Header() {
               <span className=" text-[16px] font-semibold font">photos</span>
               <img
                 onMouseOver={handleArrow}
-                className=" w-[16px] h-[16px] mt-[3px]"
+                className=" w-[20px] h-[20px] mt-[3px]"
                 src={arrow ? ArrowUpImg : ArrowDownImg}
                 alt=""
               />
